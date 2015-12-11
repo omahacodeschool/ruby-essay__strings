@@ -5,7 +5,8 @@ instructor_notes: Feel free to re-organize the headings (or add/remove headings)
 
 # What is a String?
 
-Replace me with your response...
+- quotes around it
+- can have any characters (i think?)
 
 # What are some examples of information that would be Strings as opposed to some other data type?
 
