@@ -39,7 +39,7 @@ Example:
 
 This would give us "Sum!!t Jain" 
 
-What's happening above is that the ".gsub" method in Ruby allows us to replace a character with another. We do this in the area in the parantheses after .gsub.
+What's happening above is that the ".gsub" method in Ruby allows us to replace a character with another. We do this in the area in the parantheses, known as parameters, after .gsub.
 In the parenthesis, the character to be replaced goes in first, before the comma, and the character to replace it with goes in second (after the comma).
 If we left off the "g" and used the ".sub" method instead, it would only replace the
 first occurance of the letter "e"; using the "g" makes the method "global" which replaces all occurances of the letter. 
