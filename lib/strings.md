@@ -25,5 +25,5 @@ If you attempted to find the 99th character in the aformentioned string, it woul
 Yes, it is possible. It would be C . when using a negative number, Ruby will count backwards, right to left from the length of the string, starting at -1.
 
 # What is one way, using Ruby, to replace certain characters in a string with some other set of characters? For example, given `"Sumeet Jain"`, how would you replace all of the `e` characters in my name with exclamation marks? (So it would be `"Sum!!t Jain"`.)
-"Sumeet Jain".gsub!(/e/, "!")
+"Sumeet Jain".gsub!("e", "!")
 
