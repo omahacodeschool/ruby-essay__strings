@@ -28,6 +28,11 @@ So, use:
 string = "Ada Lovelace"
 string[5]
 
+For the 8th character, use:
+
+string = "Ada Lovelace"
+string[7]
+
 If trying to retrieve a non-existent character, the program returns =>nil 
 
 # The previous question asks about finding, for example, the 6th character in a String. 
