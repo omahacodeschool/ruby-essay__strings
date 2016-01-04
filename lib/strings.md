@@ -27,4 +27,14 @@ myString[3..4]= "!!"
 
 puts myString
 
-test text
+another way to accomplish this is by using the gsub command
+
+variable = "Sumeet Jain"
+
+puts variable
+
+variable = variable.gsub("e", "!")
+
+puts variable
+
+gsub will allow you to substitute any charachter for another
