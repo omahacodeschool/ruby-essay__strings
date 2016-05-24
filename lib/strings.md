@@ -24,7 +24,7 @@ Yes, it means it starts count backwards from the end with the last letter in the
 
 # What is one way, using Ruby, to replace certain characters in a string with some other set of characters? For example, given `"Sumeet Jain"`, how would you replace all of the `e` characters in my name with exclamation marks? (So it would be `"Sum!!t Jain"`.)
 
-This taks can be completed using .gsub
+This task can be completed using .gsub
 
 name = "Sumeet Jain"
 name.gsub("e","!")
