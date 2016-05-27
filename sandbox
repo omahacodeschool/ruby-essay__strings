@@ -1,0 +1,8 @@
+a = "Ada Lovelace"
+puts a[6]
+puts a[8]
+puts a[99]
+puts a[11]
+puts a[-6]
+
+puts "Sumeet Jain".gsub('e','!')
