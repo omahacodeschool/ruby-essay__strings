@@ -21,5 +21,4 @@ It is possible. Using the negative sign tells Ruby to index the characters in re
 
 # What is one way, using Ruby, to replace certain characters in a string with some other set of characters? For example, given `"Sumeet Jain"`, how would you replace all of the `e` characters in my name with exclamation marks? (So it would be `"Sum!!t Jain"`.)
 
-One method would be to use a regular expression and the gsub method to globally substitue all instances of the letter "e" with a "!". For example,
-"Sumeet Jain".gsub(/e/, "!") would output "Sum!!t Jain".
+One method would be to use a regular expression and the gsub method to globally substitue all instances of the letter "e" with a "!". For example, "Sumeet Jain".gsub(/e/, "!") would output "Sum!!t Jain".
