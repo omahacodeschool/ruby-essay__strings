@@ -11,11 +11,14 @@ A string is a line of text or values typically created by using quotations.
 
 Strings are created by enclosing values with quotations and by doing such any 
 mathematical operator used on a string will return a string value instead of an 
-integer value like some other data types would.
+integer value like some other data types would. If someone wants to only convey the 
+meaning of the number two they will need to put 2 in quotations. Otherwise while 
+2 by itself still is indeed the number two, the language the computer reads it as
+is a fixnum, not a string.
 
 # What is one way, using Ruby, to retrieve the 6th character in a String like `"Ada Lovelace"`? How about the 8th character? What happens if you try to retrieve the value of the _99th_ character (Or any character that doesn't exist)?
 
-Given a string of a specific length, using a code to call for a character within
+Given a string of a specific length, using a code (like string_name[integer])to call for a character within
 the string should be performed by defining the string as a variable ex. a_string = "string"
 and then performing the ruby command to retrieve the nth value of a_string. Given 
 that a string has n length, where the first character is the zero-ith position, 
@@ -29,6 +32,8 @@ will start the count at the end of the string and work its way from right to lef
 
 # What is one way, using Ruby, to replace certain characters in a string with some other set of characters? For example, given `"Sumeet Jain"`, how would you replace all of the `e` characters in my name with exclamation marks? (So it would be `"Sum!!t Jain"`.)
 
-The sub command in the rubymonk link is used by first defining the a set of characters
+The gsub command in the rubymonk link is used by first defining the a set of characters
 (e in the questions example) that the user wants to replace followed by the value 
 that is to replace that set of characters (! from the example) within the string.
+The sub command is used to just replace the first defined character with the 
+replacement value. G in gsub can be interpreted as global.
