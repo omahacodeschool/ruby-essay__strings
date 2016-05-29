@@ -5,7 +5,7 @@ instructor_notes: Feel free to re-organize the headings (or add/remove headings)
 
 # What is a String?
 
-A string is anything contained between quotation marks (""). A string can be used to store any kind of 
+A string is anything contained between quotation marks (""). A string can be used to store any kind of information.
 
 
 # What are some examples of information that would be Strings as opposed to some other data type?
