@@ -24,7 +24,7 @@ Then I can take the variable 'hero' and using brackets I can identify the 6th ch
     
 The '5' represents the sixth letter because the first character (A) is actually in the 'zero' position. 
 So hero[0] will be 'A' and hero[5] will be the 'o'. Similarly hero[7] will pull out the 8th letter, 'e'. These characters that get pulled out are 'substrings' within the bigger one.
-Trying to find the 99th character will result in a 'nil' because no character exists in that position.
+Trying to find the 99th character will result in a 'nil' because no character exists in that position. Trying to find a character where one doesn't exist will always result in a 'nil' because it is an empty position.
 
 
 # The previous question asks about finding, for example, the 6th character in a String. Is it possible to find the **-6th** (Notice the negative symbol!) character in a String? What does that even mean?
