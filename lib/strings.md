@@ -5,7 +5,7 @@ instructor_notes: Feel free to re-organize the headings (or add/remove headings)
 
 # What is a String?
 
-A string is a data type that consists of a combination of characters or values. Strings are surrounded by "" or '' marks. 
+A string is a data type that consists of a combination of characters, including alphanumeric characters, punctuation, and white spaces. Strings are surrounded by "" or '' marks. 
 
 # What are some examples of information that would be Strings as opposed to some other data type?
 
@@ -13,7 +13,7 @@ Letters, words, sentences, or numbers that are read or printed to the screen and
 
 # What is one way, using Ruby, to retrieve the 6th character in a String like `"Ada Lovelace"`? How about the 8th character? What happens if you try to retrieve the value of the _99th_ character (Or any character that doesn't exist)?
 
-A string is an array, so each value in a string has an index number, starting at 0. For example, since it is the 5th value, the index for "L" in "Ada Lovelace" is 4. So to retrieve the 6th character, I would look for the value with an index of 5. The code "Ada Lovelace" [5] would return "o". For the 8th character, I would look for the value with an index of 7. If I search for an index that is greater than the number of characters in a string, it returns nil.
+A string is indexed like an array, so each value in a string has an index number, starting at 0. For example, since it is the 5th value, the index for "L" in "Ada Lovelace" is 4. So to retrieve the 6th character, I would look for the value with an index of 5. The code "Ada Lovelace" [5] would return "o". For the 8th character, I would look for the value with an index of 7. If I search for an index that is greater than the number of characters in a string, it returns nil.
 
 # The previous question asks about finding, for example, the 6th character in a String. Is it possible to find the **-6th** (Notice the negative symbol!) character in a String? What does that even mean?
 
